@@ -1,0 +1,29 @@
+-Classe (descreve)
+	Engloba listagem de atributos e apartir dela que são moldados os objetos
+        Ex: celular
+
+-Objetos (características próprias, funcionalidades próprias e um escopo muito bem definido, e o 
+            tipo dele será definido a partir da classe que ele será instanciado)
+	Elemento do mundo real para o mundo da programação
+        Ex: Iphone
+
+-Atributos
+    São as características do objeto
+        Ex: Marca, Ano, Valor,Cor, memória
+
+-Método
+    O Que esse objeto faz, suas ações/funcionalidades
+        Ex: Liga, desliga..
+
+-Instanciação
+    Criação de um objeto apartir de uma classe
+
+
+Só que podemos nos deparar com a seguinte questão: e se eu quise criar um objeto com outros atributos
+que não tem na minha classe atual? Não seria legal modificar a classe atual porque isso poderia 
+influenciar no comportamento de outros objetos que foram contruidos apartir dos atributos listados nela..🤔
+agora entra um novo conceito...
+
+   -Herança
+Ela te permite criar uma classe apartir de outra classe(já criada) herdando seus atributos e métodos 
+e adicionando novos
