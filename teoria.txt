@@ -21,9 +21,35 @@
 
 Só que podemos nos deparar com a seguinte questão: e se eu quise criar um objeto com outros atributos
 que não tem na minha classe atual? Não seria legal modificar a classe atual porque isso poderia 
-influenciar no comportamento de outros objetos que foram contruidos apartir dos atributos listados nela..🤔
+influenciar no comportamento de outros objetos que foram construidos apartir dos atributos listados nela..🤔
 agora entra um novo conceito...
 
    -Herança
 Ela te permite criar uma classe apartir de outra classe(já criada) herdando seus atributos e métodos 
 e adicionando novos
+
+
+ - Polimorfismo
+Capacidade do objeto assumir formas diferentes em contextos diferentes, ser tratado diferente a partir de contextos diferentes que eu estabeleço em meu código .
+Fazemos isso por meio de classes abstratas e interfaces.
+
+O que é uma classe abstrata?
+R:Esqueleto, escopo de uma classe. A classe que herdar dessa classe abstrata poderá ser instanciada, ou seja, a partir dela será possivel a instanciação
+
+O que é uma interface?
+R:É um tipo de classe abstrata porém ela só terá os métodos/atributos abtratos ou seja, apenas o esqueleto sem implementação.
+
+
+
+ - Encapsulamento 
+Criação de uma proteção/padão, sendo que, este detemina que o comportamento desse o objeto será sempre
+o mesmo. Observa-se que, uma vez que este objeto esteja protegido ele não poderá ser acessado, porém a troca de 
+informações com ele pode ser feita por meio de uma interface. 
+
+
+ - Abstração(uma classe mais simples que se concentra apenas no propósito do código)
+Objetivo de aproximar o mundo real do mundo da programação, simplificar um problema. Esse processo se concentra apenas 
+nas informaçãoes que são importantes para o seu propósito, mantendo o escopo da classe simplificada, ou seja , se concentra
+no que é importante para um determinada finalidade.
+
+
