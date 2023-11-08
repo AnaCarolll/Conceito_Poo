@@ -30,26 +30,34 @@ e adicionando novos
 
 
  - Polimorfismo
-Capacidade do objeto assumir formas diferentes em contextos diferentes, ser tratado diferente a partir de contextos diferentes que eu estabeleço em meu código .
+Capacidade do objeto assumir formas diferentes de acordo com contextos diferentes, ser tratado diferente a partir de contextos diferentes que eu estabeleço em meu código .
+
+Usando o exemplo da moto: podemos agrupar varios tipos de moto diferentes e estabelecer regras para que eles se comportem de forma igual para que seja possivel gerenciar no codigo
 Fazemos isso por meio de classes abstratas e interfaces.
 
-O que é uma classe abstrata?
-R:Esqueleto, escopo de uma classe. A classe que herdar dessa classe abstrata poderá ser instanciada, ou seja, a partir dela será possivel a instanciação
+O que é uma classe abstrata(regra, como deve ser)?
+R:Esqueleto, escopo de uma classe. A classe que herdar dessa classe(ela terá que estar de acordo com o escopo dessa classe) abstrata poderá ser instanciada, ou seja, a partir dela será possivel a criação de um objeto 
 
 O que é uma interface?
 R:É um tipo de classe abstrata porém ela só terá os métodos/atributos abtratos ou seja, apenas o esqueleto sem implementação.
 
 
-
  - Encapsulamento 
-Criação de uma proteção/padão, sendo que, este detemina que o comportamento desse o objeto será sempre
-o mesmo. Observa-se que, uma vez que este objeto esteja protegido ele não poderá ser acessado, porém a troca de 
-informações com ele pode ser feita por meio de uma interface. 
+Criação de uma proteção/padrão, sendo que, este determina que o comportamento desse objeto será sempre
+o mesmo. Observa-se que, uma vez que este objeto esteja protegido o acesso a ele será limitado. 
+Existem três niveis que as classes podem receber:
+
+Público : qualquer um acessa/modifica
+Protegido: Há um nivel de acesso para classes especificas( ou seja, não é qualquer uma que pode usar)
+Private: apenas a prória classe pode acessar os próprios dados
 
 
- - Abstração(uma classe mais simples que se concentra apenas no propósito do código)
-Objetivo de aproximar o mundo real do mundo da programação, simplificar um problema. Esse processo se concentra apenas 
-nas informaçãoes que são importantes para o seu propósito, mantendo o escopo da classe simplificada, ou seja , se concentra
-no que é importante para um determinada finalidade.
+
+
+
+
+
+
+
 
 

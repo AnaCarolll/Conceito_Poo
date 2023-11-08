@@ -18,3 +18,4 @@ moto1.mostrarInformações();
 
 console.log("Moto 2:");
 moto2.mostrarInformações()
+
